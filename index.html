@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Travel Agency site">
+    <meta name="author" content="Vera Adiele">
+    <meta name="keyword" content="Web development, HTML, CSS, JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <title>L'adventure | Travel | Travel Agency</title><!--Fire-Adventure-->
+</head>
+<body id="home">
+<!--Navbar-->
+ <nav id="navbar">
+    <h1 class="logo">
+        <span class="text-primary">
+            <i class="fas fa-rocket" aria-hidden=></i> L'
+        </span>adventure
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>   
+            <li><a href="#services">Services</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  
+<!--Adding Audio--> 
+<div class="audio">
+<audio controls = "autoplay">
+<source src="audio/i_wonder_mp3_51149.mp3" type="audio/mpeg" hidden="true">
+    Your browser does not support the audio element.
+</audio>
+</div>
+
+<!--<embed src="audio/i_wonder_mp3_51149.mp3" autostart="true" loop="true"width="0" height="0">
+</embed>-->
+<!--<a><i class="fa fa-volume-up" style="font-size:24px" onclick="playSound()"></i></a>-->
+  
+
+<!--Header-Showcase-->
+<header id="showcase">
+    <div class="showcase-content">
+     <h1 class="l-heading">
+      <!--Come and Explore!-->Make Your Dreams Come True!
+     </h1>
+     <p class="lead">
+      Here at L'adventure we provide quality travel & tourism experience for Africans 
+      who want to go on adventures around the world
+     </p>
+      <a href="#services" class="btn">Read More</a>
+    </div>
+</header>
+
+<!--Services Section-->
+<section id="services" class="bg-light py-1">
+    <section id="services" class="bg-light py-1">
+        <div class="container">
+          <h2 class="m-heading text-center"><span class="text-primary">Services We</span>
+          Offer</h2> 
+        <div class="items">
+        <div class="item"></div>
+            <i class="fa fa-car fa-2x"></i>
+        <div>
+            <h3>Comfortable travel experience</h3>
+            <p>We provide comfortable accommodation for our customers as they travel and explore great destinations.</p>   
+        </div>
+        <div class="item"></div>
+            <i class="fa fa-subway fa-2x"></i>
+        <div>
+            <h3>Affordable Transport Services</h3>
+            <p>Our customers get to enjoy affordable transport service.</p>   
+        </div>
+        <div class="item"></div> 
+        <i class="fa fa-plane" aria-hidden="true"></i>
+            <!--<i class="fas fa-pencil-alt fa-2x"></i>-->
+        <div>
+            <h3>Great travel destinations & Travel Guide</h3>
+            <p>We help you book flights and transport means. We also guide you on travel destinations such as Tokyo, Mount Rushmore etc.</p>   
+        </div>
+        </div>
+        </div>
+</section>
+
+<!--About Section-->
+<section id="aboutus">
+    <div class="about-img"></div>
+   <div class="about-text bg-dark p-2">
+   <h2 class="m-heading"><span 
+    class="text-primary">About</span> Us</h2>
+    <p>We are a group of adventurers who love to explore the world in grand style.
+        We provide you with comfort and make your travel processes easy.
+    </p>
+    <h3>Our Team</h3>
+    <ul class="list">
+      <li>Vera Adiele: Managing Director</li>
+      <li>Chioma Ezenwa: Head of Operations</li>
+      <li>Elizabeth Dan: Head of Administration</li>
+      <li>Obi Maxwell: Tour Manager</li>
+      <li>Emmanuel Olajide: Travel Agent</li>
+    </ul>
+   </div> 
+</section>
+
+<!--Clients Section-->
+<section id="clients" class="py-1">
+    <!--<div>-->
+        <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Our</span> Clents
+        </h2>
+        <div class="items py-1">
+          <div><img src="./Img/logos/logo6.png" class="logo" alt="Client"></div>
+          <div><img src="./Img/logos/logo7.png" class="logo" alt="Client"></div>
+          <div><img src="./Img/logos/logo5.png" class="logo" alt="Client"></div>
+          <div><img src="./Img/logos/logo8.png" class="logo" alt="Client"></div>
+          <div><img src="./Img/logos/logo9.png" class="logo" alt="Client"></div>
+    <!--</div>-->
+    </div>
+</section>
+
+    <!--Contact section-->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+         <h2 class="m-heading">Contact Us</h2>
+         <p>Please use the form below to contact us</p>
+    <form name="contact" method="POST" data-netlify="true">
+        <!--Name-->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <!--Phone Number-->
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">   
+        </div>
+        <!--Email-->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <!--Message-->
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter Your Message"></textarea>
+        </div>
+        <input type="submit" value="send" class="btn btn-red">
+    </form>
+    </div>
+  </section>
+
+   <!--AIzaSyCPkBgLHHSlygqZKeRqj57jzWGfMOfk_mE-->
+  <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"-->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+      <p>Copyright &copy; 2020, L'adventure, All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> 
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPkBgLHHSlygqZKeRqj57jzWGfMOfk_mE&callback=initMap" 
+  async defer></script>
+
+  <!--Audio script-->
+  <script src="js/audio.js"></script>
+</body>
+</html>
