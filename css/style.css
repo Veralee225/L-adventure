@@ -186,6 +186,7 @@ p {
 #aboutus div {
     flex: 1;
     flex-basis: 50%;
+    border-radius: 5px;
 }
 
 #aboutus .about-img {
@@ -210,6 +211,7 @@ p {
 
 #contact .map, #contact .contact-form {
     flex: 1;
+    border-radius: 10px;
 }
 
 #contact .contact-form .form-group {
