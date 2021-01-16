@@ -1,4 +1,4 @@
-// To submit the form on Netlify using AJAX
+// Code to help submit a form on Netlify using AJAX
  const form = document.querySelector("form").addEventListener("submit", handleSubmit);
 
  const handleSubmit = (e) => {
